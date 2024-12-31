@@ -17,5 +17,5 @@ void loop() {
   Serial.print(waterLevelPercent);
   Serial.println("%");
 
-  delay(500);
+  delay(400);
 }
