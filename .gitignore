@@ -1,0 +1,36 @@
+# Arduino build output
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lst
+
+# Build and intermediate files
+/build/
+*.o
+*.d
+
+# MacOS system files
+.DS_Store
+._*
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.swp
+
+# IDE-specific files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
