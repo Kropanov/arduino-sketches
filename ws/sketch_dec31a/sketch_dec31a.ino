@@ -1,8 +1,8 @@
-#define A_PIN A0
+#define A0_PIN A0
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(A_PIN, INPUT);
+  pinMode(A0_PIN, INPUT);
 
   Serial.begin(115200);
   Serial.setTimeout(1);
@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int rawValue = analogRead(A_PIN);
+  int rawValue = analogRead(A0_PIN);
 
   float waterLevelPercent = (rawValue / 1023.0) * 100.0; // Convert to percentage
   Serial.print("Water Level: ");
